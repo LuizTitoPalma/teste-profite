@@ -1,0 +1,37 @@
+#blackOverlay{ 
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15,15,15,0.62);
+    z-index: 1001
+}
+
+#whiteContent{ //Feito desta forma para deixar a janela quadrada em qq resolução
+    display: none;
+    position: fixed;
+    width:  52%;
+    top: 10%;
+    left: 24%;
+    vertical-align:  middle;
+    background-color: white;
+    text-align: center;
+    z-index: 1002;
+}
+
+#whiteContent img{
+    max-width: 100%;
+    max-height: 100%
+}
+
+#closeModal{
+    background: url("imagens/fechar.png") center center no-repeat;
+    background-size: 14px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 30px;
+    height: 30px
+}

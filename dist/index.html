@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Profite</title>
+
+        <meta charset="UTF-8">
+        <meta name="Author" content="Luiz Tito Palma | luiztitopalma@gmail.com">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--        <link rel="stylesheet" href="css/reset.css" type="text/css"/>
+        <link rel="stylesheet" href="css/fontes.css" type="text/css"/>
+        <link rel="stylesheet" href="css/cabeca.css" type="text/css"/>
+        <link rel="stylesheet" href="css/banner.css" type="text/css"/>
+        <link rel="stylesheet" href="css/produto.css" type="text/css"/>
+        <link rel="stylesheet" href="css/rodape.css" type="text/css"/>
+        <link rel="stylesheet" href="css/modal.css" type="text/css"/>-->
+
+        <link rel="stylesheet" href="css/main-min.css" type="text/css"/>
+
+    </head>
+    <body>
+        <header>
+            <div class="topo">
+                <div class="logo">
+                    <h1>
+                        <a href="" title="Profite">
+                            <img src="imagens/topo/profite_logo_novo.png" alt="Profite" title="Profite">
+                        </a>
+                    </h1>
+                </div>
+
+                <div class="login" id="login">
+                    <p>Olá, Visitante</p>
+                    <p><small><a href="javascript: void(0)">Cadastre-se</a> - <a href="javascript: void(0)">Login</a></small></p>
+                </div>
+
+                <div class="pesquisa">
+                    <form id="form-pesquisa">
+                        <input type="text" name="busca" id="campo-pesquisa" placeholder="Buscar por...">
+                        <input id="bot-pesquisa" type="button">
+                    </form>
+                </div>
+
+                <div class="lang-skype">
+                    <div class="bandeiras">
+                        <a href="javascript: alert('Brasil')"><img src="imagens/topo/bandeira1.png" alt="Brasil" title="Brasil"></a>
+                        <a href="javascript: alert('Argentina')"><img src="imagens/topo/bandeira2.png" alt="Argentina" title="Argentina"></a>
+                        <a href="javascript: alert('Peru')"><img src="imagens/topo/bandeira3.png" alt="Peru" title="Peru"></a>
+                    </div>
+                    <a class="telefone" href="https://join.skype.com/bot/YourAppID" target="_blank">11 33375618</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Banner -->
+        <div class="slider-container">
+            <div id="slider1" class="slider infinity">
+                <input type="radio" name="slides" checked="checked" id="slides_1">
+                <input type="radio" name="slides" id="slides_2">
+                <input type="radio" name="slides" id="slides_3">
+                <input type="radio" name="slides" id="slides_4">
+                <input type="radio" name="slides" id="slides_5">
+                <ul id="banner-frame">
+                    <li> <img class="banner-image" data-src="imagens/banner/banner1.jpg" data-src-mobile="imagens/banner/banner1_mobile.jpg"> </li>
+                    <li> <img class="banner-image" data-src="imagens/banner/banner2.jpg" data-src-mobile="imagens/banner/banner2_mobile.jpg"> </li>
+                    <li> <img class="banner-image" data-src="imagens/banner/banner3.jpg" data-src-mobile="imagens/banner/banner3_mobile.jpg"> </li>
+                    <li> <img class="banner-image" data-src="imagens/banner/banner4.jpg" data-src-mobile="imagens/banner/banner4_mobile.jpg"> </li>
+                    <li> <img class="banner-image" data-src="imagens/banner/banner5.jpg" data-src-mobile="imagens/banner/banner5_mobile.jpg"> </li>
+                </ul>
+                <div class="arrows">
+                    <label for="slides_1"></label>
+                    <label for="slides_2"></label>
+                    <label for="slides_3"></label>
+                    <label for="slides_4"></label>
+                    <label for="slides_5"></label>
+                    <label for="slides_1" class="goto-first"></label>
+                    <label for="slides_5" class="goto-last"></label>
+                </div>
+                <div class="navigation">
+                    <div>
+                        <label for="slides_1"></label>
+                        <label for="slides_2"></label>
+                        <label for="slides_3"></label>
+                        <label for="slides_4"></label>
+                        <label for="slides_5"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="products-container">
+            <div id="slider2" class="slider-multi infinity">
+                <ul id="products-list">
+                </ul>
+                <div id="productSliderArrows" class="arrows">
+                </div>
+            </div>
+        </div>
+
+        <!-- Rodapé -->
+        <footer>
+            <div class="rodape">
+                <div class="end-contato rj">
+                    <p>Rua do acre, 77 - sala 1108</p>
+                    <p>Centro - Rio de Janeiro</p>
+                    <p class="tel-contato">tel.: +55 (21) 2263.6044</p>
+                </div>
+                <div class="end-contato sp">
+                    <p>Rua Cardoso de melo, 1750</p>
+                    <p>6º Andar Vila Olímpia</p>
+                    <p class="tel-contato">tel.: +55 (21) 2263.6044</p>
+                </div>
+                <div class="contato" id="contato">
+                    <a href="mailto:contato@profite.com.br">Entre em <b>contato</b></a>
+                    <a href="javascript: void(0)">Fale com o nosso <br> <b>consultor online</b></a>
+                </div>
+            </div>
+        </footer>
+
+        <div id="whiteContent"></div>
+        <div id="blackOverlay"></div>
+
+<!--        <script src="js/src/moduloModal.js"></script>
+        <script src="js/src/moduloJson.js"></script>
+        <script src="js/src/moduloProduto.js"></script>
+        <script src="js/src/modulocalcProd.js"></script>
+        <script src="js/src/modprodModal.js"></script>
+        <script src="js/src/modmCadastro.js"></script>
+        <script src="js/src/modmBanner.js"></script>
+        <script src="js/src/modmPesquisa.js"></script>
+        <script src="js/src/modmConsultor.js"></script>
+        <script src="js/src/bindStart.js"></script>-->
+
+        <script src="js/main-min.js"></script>       
+    </body>
+</html>

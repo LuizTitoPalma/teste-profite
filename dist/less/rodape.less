@@ -1,0 +1,131 @@
+footer{
+    min-height: 250px;
+    background: rgb(240,240,240);
+}
+
+.rodape{
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'ArialBD', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+    div{
+        display: inline-block;
+        position: relative;
+        vertical-align: top;
+        width: 20%;
+    }
+}
+@media (max-width: 640px){
+    .rodape{
+        width: 100%;
+        font-size: 8px;
+    }
+}
+
+.end-contato{
+    padding: 10px 0px 0px 50px;
+    text-align: left;
+
+    p{
+        padding-bottom: 8px
+    }
+
+    p:first-child{
+        padding-top: 15px
+    }
+}
+
+.end-contato:before{
+    content: '';
+    display: inline-block;
+    height: 40px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: 0;
+}
+
+.end-contato.rj:before{
+    background-image: url("imagens/icone_rj.png");
+    background-size: 38px;
+}
+
+.end-contato.sp:before{
+    background-image: url("imagens/icone_sp.png");
+    background-size: 38px;
+}
+
+@media (max-width: 640px){
+    .end-contato.rj:before{
+        background-size: 30px;
+    }
+    .end-contato.sp:before{
+        background-size: 30px;
+    }
+}
+
+.tel-contato{
+    font-family: 'ArialBD', Arial, Helvetica, sans-serif;
+    font-weight: bold
+}
+
+.contato a{
+    background-color: #fac437;
+    margin-bottom: 6px;
+    display: block;
+    height: 28px;
+    width: 133px;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    color: #000;
+    text-align: left;
+    top: 16px;
+}
+
+.contato a:before{
+    content: '';
+    display: inline-block;
+    height: 16px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.contato a:first-child{
+    line-height: 27px;
+    padding: 3px 0px 0px 35px;
+}
+
+.contato a:last-child{
+    padding: 3px 0px 0px 35px;
+}
+
+@media (max-width: 640px){
+    .contato a{
+        width: 92px;
+    }
+    .contato a:last-child{
+        padding: 8px 0px 0px 35px;
+        height: 22px;
+    }
+}
+
+.contato a:first-child:before{
+    background-image: url("imagens/icone_contato.png");
+    background-size: 16px;
+    top: 8px;
+}
+
+.contato a:last-child:before{
+    background-image: url("imagens/icone_consultor.png");
+    background-size: 16px;
+    top: 8px;
+}

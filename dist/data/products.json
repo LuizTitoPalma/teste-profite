@@ -1,0 +1,83 @@
+{
+	"products": [{
+		"id": 1,
+		"titulo": "Sandália Ferracini Ecologic",
+		"imagem": "calcado1.png",
+		"imagemhover": "calcado1_hover.png",
+		"imagemzoom": "calcado1_zoom.png",
+		"classificacao": 0,
+		"preconormal": "95,92",
+		"precopromo": "",
+    "parcelas": 4
+	}, {
+		"id": 2,
+		"titulo": "Chinelo Kildare",
+		"imagem": "calcado2.png",
+		"imagemhover": "calcado2_hover.png",
+		"imagemzoom": "calcado2_zoom.png",
+		"classificacao": 1,
+		"preconormal": "99,90",
+		"precopromo": "79,92",
+    "parcelas": 3
+	}, {
+		"id": 3,
+		"titulo": "Tênis Ferracini Week",
+		"imagem": "calcado3.png",
+		"imagemhover": "calcado3_hover.png",
+		"imagemzoom": "calcado3_zoom.png",
+		"classificacao": 2,
+		"preconormal": "219,99",
+		"precopromo": "159,22",
+    "parcelas": 9
+	}, {
+		"id": 4,
+		"titulo": "Tênis Democrata Fan",
+		"imagem": "calcado4.png",
+		"imagemhover": "calcado4_hover.png",
+		"imagemzoom": "calcado4_zoom.png",
+		"classificacao": 3,
+		"preconormal": "219,90",
+		"precopromo": "159,92",
+    "parcelas": 7
+	}, {
+		"id": 5,
+    "titulo": "Sandália Ferracini Ecologic (2)",
+		"imagem": "calcado1.png",
+		"imagemhover": "calcado1_hover.png",
+		"imagemzoom": "calcado1_zoom.png",
+		"classificacao": 4,
+		"preconormal": "",
+		"precopromo": "95,92",
+    "parcelas": 4
+	}, {
+		"id": 6,
+    "titulo": "Chinelo Kildare (2)",
+		"imagem": "calcado2.png",
+		"imagemhover": "calcado2_hover.png",
+		"imagemzoom": "calcado2_zoom.png",
+		"classificacao": 5,
+		"preconormal": "99,90",
+		"precopromo": "79,92",
+    "parcelas": 3
+	}, {
+		"id": 7,
+    "titulo": "Tênis Ferracini Week (2)",
+		"imagem": "calcado3.png",
+		"imagemhover": "calcado3_hover.png",
+		"imagemzoom": "calcado3_zoom.png",
+		"classificacao": 4,
+		"preconormal": "219,99",
+		"precopromo": "159,22",
+    "parcelas": 9
+  }, {
+		"id": 8,
+    "titulo": "Tênis Democrata Fan (2)",
+		"imagem": "calcado4.png",
+		"imagemhover": "calcado4_hover.png",
+		"imagemzoom": "calcado4_zoom.png",
+		"classificacao": 3,
+		"preconormal": "219,90",
+		"precopromo": "159,92",
+    "parcelas": 7
+  }]
+}

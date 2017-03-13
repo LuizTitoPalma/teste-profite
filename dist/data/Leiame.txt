@@ -1,0 +1,4 @@
+O arquivo .htaccess para acesso externo de um arquivo JSON
+só deve ser colocado no servidor on-line.
+
+No servidor local dá erro 500

@@ -1,0 +1,7 @@
+Existem hospedeiros (por exemplo, em alguns dos servidores Locaweb), em que
+o caminho relativo dentro de um arquivo css é bloqueado por configuração.
+
+Por exemplo: '../../imagens/background.jpg'
+
+Por este motivo, as pastas referenciadas por arquivos css ficam abaixo da pasta '/css'
+(Neste caso 'css/imagens' e 'css/fontes')

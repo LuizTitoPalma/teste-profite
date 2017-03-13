@@ -1,0 +1,222 @@
+header{ 
+    height: 120px;
+    background: white
+}
+@media (max-width: 640px){//Troca o layout
+                          header{
+                              height: 165px;
+                          }
+}
+
+.topo{
+    width: 70%;
+    margin: 0 auto;
+
+    div{
+        float: left;
+        vertical-align: middle;
+    }
+}
+@media (max-width: 1000px) {//Centrado na tela s/bandeiras
+                            .topo{
+                                width: 100%;
+                                @media (min-width: 641px){
+                                    margin: 0 10%; //Ainda centrado na tela s/bandeiras
+                                } else {
+                                    margin: 0 0; //Muda o layout
+                                }
+                            }
+}
+
+.logo{
+    height: 70%;
+    width: 23%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 3%;
+
+    h1{
+        height: 100%;
+        width: 100%;
+        display: block;
+        padding: 30px 0;
+    } 
+
+    a img{
+        width: 100%;
+    }
+}
+@media (max-width: 640px){ 
+    .logo{
+        width: 100%
+    }  
+    .logo h1{
+        width: 30%;
+        margin: 0 auto;
+        display: block;
+    }   
+}
+
+.login{
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 3%;
+    padding-top: 40px;
+
+    a{
+        color: #000;
+    }
+
+    p:first-child{
+        font-family: 'ArialBD', Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    p:last-child{
+        font-family: 'Arial', Arial, Helvetica, sans-serif;
+        font-size: 10.5px;
+    } 
+}
+@media (max-width: 640px){
+    .login{
+        width: auto;
+        position: absolute;
+        top: 38px;
+        right: 10px;
+        padding-top: 0;
+    }
+}
+
+.pesquisa{
+    display: inline-block;
+    vertical-align: middle;
+    width: 29%; 
+    margin-right: 100px;
+    margin-top: 45px;
+}
+@media (max-width: 640px){ 
+    .pesquisa{
+        width: 100%;
+        display: block;
+        margin: 0;
+        padding-top: 0;
+        background: rgb(251,198,61);
+    }
+}
+
+#form-pesquisa{
+    position: relative;
+}
+
+#campo-pesquisa{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 8px;
+    height: 15px;
+    padding: 5px 5px 5px 50px;
+    background-color: rgb(250, 196, 55);
+    border: none;
+    width: 100%;
+    font-size: 14px;
+}
+
+@media (max-width: 640px){ 
+    #campo-pesquisa{
+        border-radius: 0px;
+        height: 20px;
+    }
+}
+
+#campo-pesquisa::-webkit-input-placeholder{
+    color: black;
+    opacity: 1;
+}
+
+#campo-pesquisa::-moz-placeholder{
+    color: black;
+    opacity: 1;
+}
+
+#campo-pesquisa::-ms-input-placeholder{
+    color: black;
+    opacity: 1;
+}
+
+#bot-pesquisa{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 8px;
+    height: 25px;
+    width: 35px;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    background-image: url("imagens/icone_pesquisa.png");
+    background-size: 15px;
+    background-repeat: no-repeat;
+    color: black;
+    background-position: center;
+}
+@media (max-width: 640px){
+    #bot-pesquisa{
+        border-radius: 0px;
+        width: 30px;
+        left: 15px;
+        height: 30px;
+    }
+}
+
+.lang-skype{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 14%;
+    text-align: center;
+    padding-top: 35px;
+}
+@media (max-width: 1000px){//Apaga as bandeiras abaixo de 1000px
+                           .lang-skype{
+                               display: none;
+                           }
+}
+
+.bandeiras{
+    a{
+        display: inline-block;
+        max-width: 24px;
+        margin: 3px;
+    }
+    img{
+        width: 70%;
+    }
+}
+
+.telefone{
+    text-decoration: none;
+    color: rgb(6,173,238);
+    font-weight: bold;
+    font-size: 15px;
+    height: 40px;
+    line-height: 20px;
+    position: relative;
+    margin-left: 3px; 
+}
+
+.telefone:before{
+    content: '';
+    background-image: url("imagens/skype.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    left: -29px;
+    bottom: -3px;
+    position: absolute;
+}

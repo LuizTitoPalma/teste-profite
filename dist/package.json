@@ -1,0 +1,23 @@
+{
+  "name": "teste-profite-master",
+  "version": "1.0.0",
+  "description": "teste-profite-master",
+  "main": "index.html",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^2.1.0",
+    "gulp-util": "^3.0.8",
+    "gulp-concat": "*",
+    "gulp-cssmin": "*",
+    "gulp-watch": "*",
+    "gulp-strip-css-comments": "*"    
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luiz Tito Palma",
+  "license": "ISC"
+}
